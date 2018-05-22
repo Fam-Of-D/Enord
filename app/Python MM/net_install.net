@@ -1,0 +1,8 @@
+yum install rh-dotnet20 -y
+scl enable rh-dotnet20 bash
+
+//Open a new command prompt and run the following commands:
+
+dotnet new console -o myApp
+cd myApp
+
